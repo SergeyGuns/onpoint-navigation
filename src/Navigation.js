@@ -17,10 +17,6 @@ class Navigation {
   toNext() {
     return this.__adapter.to(this.__adapter.getNextSlide())
   }
-
-
-  
-
 } 
 
 export default Navigation

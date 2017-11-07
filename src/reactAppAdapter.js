@@ -8,8 +8,8 @@ class ReactAppAdapter {
 
   getNextSlide() {
     let currIndex = this.__scenario.indexOf(this.__currSlide)
-    if (currIndex !== -1 && this.__scenario[currIndex+1]) {
-      return this.__scenario[currIndex + 1]
+    if (currIndex !== -1 && this.__scenario[currIndex + 1]) {
+      return this.__currSlide = this.__scenario[currIndex + 1]
     } else {
       return false
     }
@@ -20,7 +20,7 @@ class ReactAppAdapter {
     return route
   }
 
-  
+
   
 }
 

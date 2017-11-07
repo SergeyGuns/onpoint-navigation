@@ -9,3 +9,5 @@ let nav = new Navigation({
 console.log(nav)
 console.log(nav.toNext())
 console.log(nav)
+console.log(nav.toNext())
+console.log(nav)
